@@ -1,0 +1,20 @@
+2024-06-26 13:56:28 - Inicio de procesamiento del archivo: C:\Users\andy_\AppData\Local\Temp\phpB72C.tmp
+2024-06-26 13:56:28 - Procesando fila 2
+2024-06-26 13:56:30 - Producto creado: pruebafinala11
+2024-06-26 13:56:30 - Procesando fila 3
+2024-06-26 13:56:32 - Producto creado: pruebafinala22
+2024-06-26 13:56:32 - Variación creada: pruebafinala22 - rojo
+2024-06-26 13:56:36 - Variación creada: pruebafinala22 - azul
+2024-06-26 13:56:38 - Variación creada: pruebafinala22 - verde
+2024-06-26 13:56:40 - Procesando fila 4
+2024-06-26 13:56:43 - Producto creado: pruebafinala33
+2024-06-26 13:56:43 - Procesando fila 5
+2024-06-26 13:56:43 - Procesando fila 6
+2024-06-26 13:56:43 - Procesando fila 7
+2024-06-26 13:56:43 - Procesando fila 8
+2024-06-26 13:56:43 - Procesando fila 9
+2024-06-26 13:56:43 - Procesando fila 10
+2024-06-26 13:56:43 - Procesando fila 11
+2024-06-26 13:56:43 - Procesando fila 12
+2024-06-26 13:56:43 - Procesando fila 13
+2024-06-26 13:56:43 - Procesamiento del archivo finalizado.
