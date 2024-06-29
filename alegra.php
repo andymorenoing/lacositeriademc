@@ -157,11 +157,26 @@ function create_product_in_alegra($product) {
 			$price = $available_variations[0]['display_price'];
 		}
 	}
-
+	$price_2 = get_post_meta($id_product, 'variable_price_2', true);
+	$price_3 = get_post_meta($id_product, 'variable_price_3', true);
 	// Datos básicos del producto
 	$data = [
 		'name' => $product->get_name(),
-		'price' => $price,
+		'price' => [
+			0 => [
+				'idPriceList' => 1,
+				'price' => $price,
+			],
+			1 => [
+				'idPriceList' => 2,
+				'price' => $price_2,
+			],
+			2 => [
+				'idPriceList' => 3,
+				'price' => $price_3,
+			]
+
+		],
 		'reference' => $product->get_sku(),
 		'description' => $product->get_description(),
 		'inventory' => [
@@ -229,11 +244,27 @@ function update_product_in_alegra($product, $id_alegra) {
 	} else {
 		$stock_quantity = 0;
 	}
-
+	$price = $product->get_price();
+	$price_2 = get_post_meta($id_product, 'variable_price_2', true);
+	$price_3 = get_post_meta($id_product, 'variable_price_3', true);
 	// Datos básicos del producto
 	$data = [
 		'name' => $product->get_name(),
-		'price' => $product->get_price(),
+		'price' => [
+			0 => [
+				'idPriceList' => 1,
+				'price' => $price,
+			],
+			1 => [
+				'idPriceList' => 2,
+				'price' => $price_2,
+			],
+			2 => [
+				'idPriceList' => 3,
+				'price' => $price_3,
+			]
+
+		],
 		'reference' => $product->get_sku(),
 		'description' => $product->get_description(),
 		'inventory' => [
