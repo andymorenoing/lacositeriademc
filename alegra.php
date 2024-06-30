@@ -182,7 +182,7 @@ function create_product_in_alegra($product) {
 		'inventory' => [
 			'unit' => 'unit',
 			'unitCost' => $price,
-			'negativeSale' => true,
+			'negativeSale' => false,
 			'warehouses' => [
 				[
 					'id' => 1,
@@ -270,7 +270,7 @@ function update_product_in_alegra($product, $id_alegra) {
 		'inventory' => [
 			'unit' => 'unit',
 			'unitCost' => $product->get_price(),
-			'negativeSale' => true,
+			'negativeSale' => false,
 			'warehouses' => [
 				[
 					'id' => 1,
